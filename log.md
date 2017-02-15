@@ -60,22 +60,22 @@
 - I then used `vagrant init centos7` to create the vagrant config file.<br />
 
 **Challenge 3**
-1. Create a user with username jessspea and a password of your choice.
-2. Logout and login as that user.
-3. Open a terminal and start rocking!
-4. learn what the man command does.
+1. Create a user with username jessspea and a password of your choice.<br />
+2. Logout and login as that user.<br />
+3. Open a terminal and start rocking!<br />
+4. learn what the man command does.<br />
 5. start learning commands is good to follow one of the many Linux/Unix command line tutorials out there and
-  practice. You should be able to answer these questions:
-6. Navigating in the file system
-7. Creating files ( you need to learn to use one of the many terminal editors. Is personal preference!)
-8. Deleting files
-9. Editing files
-10. Search inside files for a pattern
-11. Creating directories
-12. Removing directories
-13. What processes are ? How to list them all ? How to kill some ?
-14. Learn what Input & Output is.
-15. Learn redirection
+  practice. You should be able to answer these questions:<br />
+6. Navigating in the file system<br />
+7. Creating files ( you need to learn to use one of the many terminal editors. Is personal preference!)<br />
+8. Deleting files<br />
+9. Editing files<br />
+10. Search inside files for a pattern<br />
+11. Creating directories<br />
+12. Removing directories<br />
+13. What processes are ? How to list them all ? How to kill some ?<br />
+14. Learn what Input & Output is.<br />
+15. Learn redirection<br />
 
 
 
