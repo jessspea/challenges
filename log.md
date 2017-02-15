@@ -1,5 +1,5 @@
-#Challenges
-##Challange 1
+</h1>Challenges</h1>
+</h4>Challange 1</h4>
 **Install any linux distribution using vagrant**
 *Bonus if you install Centos 7 because we use that.*
 - Installed Vagrant
@@ -11,7 +11,7 @@
 	- Select option 2 for using with virtual box
 - Next is to boot up the environment by using vagrant up
 - We can then ssh into the machine using vagrant ssh
-##Challange 2 
+</h4>hallange 2</h4>
 **Create a git repository in Github with a single *MARKDOWN* file called log.md to quickly present your steps for every challenge.**
 **Install Centos 7 from scratch in VirtualBox. Use that box to create a Vagrant Base Box.**
 **Create a Vagrantfile to use the image you created. Commit that file to the repo.**
