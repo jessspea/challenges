@@ -1,5 +1,5 @@
 <h1>Challenges</h1>
-**Challange 1**</br>
+**Challange 1**<
 **Install any linux distribution using vagrant**</br>
 *Bonus if you install Centos 7 because we use that.*
 - Installed Vagrant
@@ -12,7 +12,7 @@
 - Next I booted up the environment by using `vagrant up`
 - We can then ssh into the machine using vagrant ssh<br />
 
-**Challange 2**</br>
+**Challange 2**
 **Create a git repository in Github with a single *MARKDOWN* file called log.md to quickly present your steps for every challenge.**
 - Created a github account
 - Created a git repo and called this challanges
@@ -50,14 +50,32 @@
 	- I created a directory for the ssh keys to be stored for the vagrant user 	
 	- After I ran the following command to allow vagrant to be able to make changes `sed -i 's/^\(Defaults.*requiretty\)/#\1/' /etc/sudoers`
 	- I added the vagrant user to /etc/sudoers file using 	`echo 'vagrant ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers`
-	- I then got public/private keys that were providec by vagrant using  `curl https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/vagrant.pub >> /home/vagrant/.ssh/authorized_keys`
+	- I then got public keys that were provide by vagrant using  `curl https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/vagrant.pub >> /home/vagrant/.ssh/authorized_keys`
 	- Then I changed the permissions so that owner can read and write only using `chmod 600 /home/vagrant/.ssh/authorized_keys`
 	- After that I changed ownership of the .ssh folder by using the `command chown -R vagrant:vagrant /home/vagrant/.ssh`<br />
 
 **Create a Vagrantfile to use the image you created. Commit that file to the repo.**
 - I then needed to package the vm for vagrant using `vagrant package --output centos7.box --base centos7`
 - I then used `vagrant box add centos7 centos7.box`
-- I then used `vagrant init centos7` to create the vagrant config file.
+- I then used `vagrant init centos7` to create the vagrant config file.<br />
+
+**Challenge 3**
+1. Create a user with username jessspea and a password of your choice.
+2. Logout and login as that user.
+3. Open a terminal and start rocking!
+4. learn what the man command does.
+5. start learning commands is good to follow one of the many Linux/Unix command line tutorials out there and
+  practice. You should be able to answer these questions:
+6. Navigating in the file system
+7. Creating files ( you need to learn to use one of the many terminal editors. Is personal preference!)
+8. Deleting files
+9. Editing files
+10. Search inside files for a pattern
+11. Creating directories
+12. Removing directories
+13. What processes are ? How to list them all ? How to kill some ?
+14. Learn what Input & Output is.
+15. Learn redirection
 
 
 
