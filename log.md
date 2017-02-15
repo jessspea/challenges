@@ -10,7 +10,8 @@
 - Add the centos7 box with vagrant box add centos/7 
 	- Select option 2 for using with virtual box
 - Next is to boot up the environment by using vagrant up
-- We can then ssh into the machine using vagrant ssh</br>
+- We can then ssh into the machine using vagrant ssh<br />
+
 **Challange 2**</br>
 **Create a git repository in Github with a single *MARKDOWN* file called log.md to quickly present your steps for every challenge.**
 **Install Centos 7 from scratch in VirtualBox. Use that box to create a Vagrant Base Box.**
