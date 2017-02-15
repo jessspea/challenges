@@ -59,7 +59,7 @@
 - I then used `vagrant box add centos7 centos7.box`
 - I then used `vagrant init centos7` to create the vagrant config file.<br />
 
-**Challenge 3**
+**Challenge 3**<br />
 1. Create a user with username jessspea and a password of your choice.<br />
 2. Logout and login as that user.<br />
 3. Open a terminal and start rocking!<br />
