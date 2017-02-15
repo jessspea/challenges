@@ -52,7 +52,7 @@
 	- I added the vagrant user to /etc/sudoers file using 	`echo 'vagrant ALL=(ALL) NOPASSWD: ALL' >> /etc/sudoers`
 	- I then got public/private keys that were providec by vagrant using  `curl https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/vagrant.pub >> /home/vagrant/.ssh/authorized_keys`
 	- Then I changed the permissions so that owner can read and write only using `chmod 600 /home/vagrant/.ssh/authorized_keys`
-	- After that I changed ownership of the .ssh folder by using the `command chown -R vagrant:vagrant /home/vagrant/.ssh`
+	- After that I changed ownership of the .ssh folder by using the `command chown -R vagrant:vagrant /home/vagrant/.ssh`<br />
 **Create a Vagrantfile to use the image you created. Commit that file to the repo.**
 - I then needed to package the vm for vagrant using `vagrant package --output centos7.box --base centos7`
 - I then used `vagrant box add centos7 centos7.box`
