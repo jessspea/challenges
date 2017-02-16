@@ -61,11 +61,11 @@
 
 **Challenge 3**<br />
 **Challenge 3.1 (extra)**<br />
-- Look up packer<br />
-- Installed Packer
-- set `PATH=$PATH:"path where packer is saved"` so we can run packer when we start terminal
-- Create json script
-- Create a KS configfile-<br />
+- Look up packer
+	- Installed Packer
+	- set `PATH=$PATH:"path where packer is saved"` so we can run packer when we start terminal
+	- Create json script
+	- Create a KS configfile<br />
 
 - Create a centos 7 base box with packer and commit the packer JSON config file
 	-Then use `packer build centos7packer.json` This will download and varify the iso and spin up the virtual box-<br />
