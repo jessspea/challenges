@@ -61,7 +61,7 @@
 
 **Challenge 3**<br />
 **Challenge 3.1 (extra)**<br />
-- Look up packer
+- Look up packer<br />
 	-Installed Packer-
 	-set `PATH=$PATH:"path where packer is saved"` so we can run packer when we start terminal-
 	-Create json script- 
