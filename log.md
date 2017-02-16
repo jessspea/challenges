@@ -60,19 +60,44 @@
 - I then used `vagrant init centos7` to create the vagrant config file.<br />
 
 **Challenge 3**<br />
-1. Create a user with username jessspea and a password of your choice.<br />
+**Challenge 3.1 (extra)**
+- Look up packer
+	-Installed Packer-
+	-set `PATH=$PATH:"path where packer is saved"` so we can run packer when we start terminal-
+	-Create json script- 
+	-Create a KS configfile-<br />
+
+- Create a centos 7 base box with packer and commit the packer JSON config file
+	-Then use `packer build centos7packer.json` This will download and varify the iso and spin up the virtual box-<br />
+
+1. Create a user with username and a password of your choice.<br />
+	- `useradd username` `passwd username` then type password. Password can be changed by this command but must be root user when changing.
 2. Logout and login as that user.<br />
+	-`su username` `su -` You can check by using the command `whoami`
 3. Open a terminal and start rocking!<br />
 4. learn what the man command does.<br />
+	-man can be used to show manual pages 
 5. start learning commands is good to follow one of the many Linux/Unix command line tutorials out there and
   practice. You should be able to answer these questions:<br />
 6. Navigating in the file system<br />
+	- pwd This shows the current directory you are in
+	- cd This changes directory
+	- ls Lists the current files in the current location. Using ls -a will show hidden directories. ls -l will give us more info on each file
+	- one dot . refers to current directory
+	- two dots .. refer to the previous directory
 7. Creating files ( you need to learn to use one of the many terminal editors. Is personal preference!)<br />
+	- touch filename to create file 
+	- using cat > test.txt will create the test txt file and you can add text here. Use ctr d to close the file. This command can also be used cat test.txt to view contents of the file.
 8. Deleting files<br />
+	- rm filename to remove file. This won't ask if your sure
 9. Editing files<br />
+	- To add text use vi filename and this will bring up the vim file. You can move the cursor and use x to delete. Use I to insert. To save and quit hit esc and the :wq. You can use :w to just save and carry on or :q! to quit without saving. 
 10. Search inside files for a pattern<br />
+	- We can use grep to find patterns. This is case sensitive. -i can be used to ignore case. grep -r will go through a directory and recursively check for a pattern
 11. Creating directories<br />
+	- mkdir to create new directory
 12. Removing directories<br />
+	- rmdir directory if there are no files or other directories in that directory. We can use rm -r directory to remove the directory but this will also delete all file and folders in that location
 13. What processes are ? How to list them all ? How to kill some ?<br />
 14. Learn what Input & Output is.<br />
 15. Learn redirection<br />
