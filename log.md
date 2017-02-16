@@ -60,7 +60,7 @@
 - I then used `vagrant init centos7` to create the vagrant config file.<br />
 
 **Challenge 3**<br />
-**Challenge 3.1 (extra)**
+**Challenge 3.1 (extra)**<br />
 - Look up packer
 	-Installed Packer-
 	-set `PATH=$PATH:"path where packer is saved"` so we can run packer when we start terminal-
