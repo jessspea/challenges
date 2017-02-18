@@ -39,6 +39,6 @@
   }],
   "post-processors": [{
     "type": "vagrant",
-    "output": "centos_7_teset.box"
+    "output": "centos_7_test.box"
   }]
 }
