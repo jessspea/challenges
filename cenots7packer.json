@@ -16,9 +16,6 @@
         ],
     "boot_wait": "5s",
     "disk_size": 100000,
-    "floppy_files": [
-      "ks.cfg"
-    ],
     "hard_drive_interface": "sata",
     "shutdown_command": "echo 'vagrant' | sudo -S shutdown -P now",
     "vboxmanage": [
