@@ -104,12 +104,26 @@
 15. Learn redirection<br />
 	- We can use `>` to redirect stdout to a file and `<` to redirect input to a file.  `2>` is used for sending error output to a file. This will be overwritten everytime we use this command. We can use `>>` to append to the file or `<<` for input and `2>>`. We can use pipes | to feed standard output of one command to standard input of another. 
 
-***Challenge 4***<br />
+**Challenge 4** <br />
 Deploy a ruby application in heroku using terraform. The application can be just a simple hello world application. Please commit your terraform configuration
 but don't commit any user credentials in the public github repository.Look up what heroku is and what terraform is. Heroku has a free tier and you can use that.
 Let us know a URL that we can visit and see a Hello world message.
-- Use `heroku create` 
-- We can see logs by using the command `heroku logs --tail`
+- Download and install postgres and intall all bundles
+- I went through the getting started guide before starting the hello world app.
+- I used `heroku login` to login in terminal
+- I used `rails new helloworld database=postgresql` to create new ruby app and cd into that directory
+- Then I used `bundle install` to reinstall dependencies
+- I then gererated a root page using `rails generate controller welcome`
+- I then edited the index.html.erb to add in the Hello World script
+- I then edited the routes.rb to set the index page to this using  `root welcome#index`
+- I used bundle exec rake db:create to create the database
+- Initialise to use git `git init`
+- Then we can use `git add .` and `git commit-m "helloworld"
+- use `heroku create`
+- git push to heroku using `git push heroku master`
+- Then I needed to initialise the database using `heroku run rake db:reset` 
+- Then I needed to migrate the db using `heroku run rake db:migrate` and `heroku open`
+
 
 
 
