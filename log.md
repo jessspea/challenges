@@ -109,6 +109,7 @@ Deploy a ruby application in heroku using terraform. The application can be just
 but don't commit any user credentials in the public github repository.Look up what heroku is and what terraform is. Heroku has a free tier and you can use that.
 Let us know a URL that we can visit and see a Hello world message.
 - Download and install postgres and intall all bundles
+- Download all ruby packages
 - I went through the getting started guide before starting the hello world app.
 - I used `heroku login` to login in terminal
 - I used `rails new helloworld database=postgresql` to create new ruby app and cd into that directory
@@ -118,11 +119,15 @@ Let us know a URL that we can visit and see a Hello world message.
 - I then edited the routes.rb to set the index page to this using  `root welcome#index`
 - I used bundle exec rake db:create to create the database
 - Initialise to use git `git init`
-- Then we can use `git add .` and `git commit-m "helloworld"
+- Then I used `git add .` and `git commit-m "helloworld"
 - use `heroku create`
 - git push to heroku using `git push heroku master`
 - Then I needed to initialise the database using `heroku run rake db:reset` 
 - Then I needed to migrate the db using `heroku run rake db:migrate` and `heroku open`
+- Without a database the app would not load on Heroku
+- I downloaded terraform and added this to terminal root.
+- I then went on to create an app via terraform, please see app.tf for config file. 
+- I got an error when I used terraform apply as heroku didn't allow the db to be added on
 
 
 
