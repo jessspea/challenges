@@ -10,7 +10,7 @@
 - Added the centos7 box with `vagrant box add centos/7` 
 	- Selected option 2 for using with virtual box
 - Next I booted up the environment by using `vagrant up`
-- We can then ssh into the machine using vagrant ssh<br />
+- We can then ssh into the machine using `vagrant ssh`<br />
 
 **Challange 2**
 **Create a git repository in Github with a single *MARKDOWN* file called log.md to quickly present your steps for every challenge.**
@@ -127,8 +127,20 @@ Let us know a URL that we can visit and see a Hello world message.
 - Without a database the app would not load on Heroku
 - I downloaded terraform and added this to terminal root.
 - I then went on to create an app via terraform, please see app.tf for config file. 
-- I got an error when I used terraform apply as heroku didn't allow the db to be added on
+- I got an error when I used terraform apply as heroku didn't allow the db to be added due to having a free account.
 
+**Challenge 5 <br />
+Modify the base box you created to use puppet provisioner. Then use puppet to configure the file /etc/motd with a custom message.
+I would expect to do 
+$vagrant up
+$vagrant ssh
+InsideVM $ cat /etc/motd
+CUSTOM MESSAGE ....
+- I added a puppet folder to my vagrant directory and then added a manifests folder with a init.pp file
+- I modified the init.pp folder to declare the file resource
+- I then added the install of puppet to the Vagrant file 
+- I modified the Vagrant file to use puppet provisioner
+- I was able to ssh into the machine and see the motd custom message
 
 
 
