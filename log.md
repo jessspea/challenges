@@ -65,8 +65,8 @@
 - Create a centos 7 base box with packer and commit the packer JSON config file
 	- Installed Packer
 	- set `PATH=$PATH:"path where packer is saved"` so we can run packer when we start terminal or edit the .bash_profile and add the directory in there.
-	- Create json script
-	- Create a KS configfile<br />
+	- Created a json script
+	- Created a KS configfile<br />
 	-Then use `packer build centos7packer.json` This will download and varify the iso and spin up the virtual box-<br />
 
 1. Create a user with username and a password of your choice.<br />
@@ -129,7 +129,7 @@ Let us know a URL that we can visit and see a Hello world message.
 - I then went on to create an app via terraform, please see app.tf for config file. 
 - I got an error when I used terraform apply as heroku didn't allow the db to be added due to having a free account.
 
-**Challenge 5 <br />
+**Challenge 5** <br />
 Modify the base box you created to use puppet provisioner. Then use puppet to configure the file /etc/motd with a custom message.
 I would expect to do 
 $vagrant up
