@@ -1,6 +1,6 @@
 <h1>Challenges</h1>
-**Challange 1**<
-**Install any linux distribution using vagrant**</br>
+**Challange 1**<br />
+**Install any linux distribution using vagrant**<br />
 *Bonus if you install Centos 7 because we use that.*
 - Installed Vagrant
 - Installed Virtual Box
@@ -12,7 +12,7 @@
 - Next I booted up the environment by using `vagrant up`
 - We can then ssh into the machine using `vagrant ssh`<br />
 
-**Challange 2**
+**Challange 2**<br />
 **Create a git repository in Github with a single *MARKDOWN* file called log.md to quickly present your steps for every challenge.**
 - Created a github account
 - Created a git repo and called this challenges
