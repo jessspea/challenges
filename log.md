@@ -11,8 +11,8 @@
 - Added the centos7 box with `vagrant box add centos/7`
 	- Selected option 2 for using with virtual box
 - Next I booted up the environment by using `vagrant up`
-- We can then ssh into the machine using `vagrant ssh`
-<br />
+- We can then ssh into the machine using `vagrant ssh`<br />
+
 **Challange 2**<br />
 **Create a git repository in Github with a single *MARKDOWN* file called log.md to quickly present your steps for every challenge.**
 - Created a github account
